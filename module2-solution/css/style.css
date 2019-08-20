@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+    p {
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    p {
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    p {
+        width: 100px;
+    }
+}
