@@ -1,17 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 @media (min-width: 992px) {
     p {
+        border: 1px solid;
         width: 600px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     p {
+        border: 1px solid;
         width: 300px;
     }
 }
 
 @media (max-width: 767px) {
     p {
+        border: 1px solid;
         width: 100px;
     }
 }
