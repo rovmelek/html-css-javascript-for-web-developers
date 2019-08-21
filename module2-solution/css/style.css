@@ -7,15 +7,14 @@ h1 {
     margin-bottom: 15px;
     text-align: center;
 }
-  
+
 p {
-    border: 1px solid black;
-    background-color: grey;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: grey;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
-  
+
 /* Simple Responsive Framework. */
 .row {
     width: 100%;
@@ -51,92 +50,21 @@ p {
     text-align: center;
     border: 1px solid black;
     width: 100px;
+    height: 30px;
     font-size: 125%;
     letter-spacing: 1px;
     margin: 0;
     float: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .content {
     float: left;
     margin: 0;
-    padding: 10px;
+    padding: 40px 15px 15px 15px;
 }
-
-/*
-div {
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-.title {
-    text-align: center;
-    border: 1px solid black;
-    box-sizing: border-box;
-    width: 100px;
-    float: right;
-    font-size: 125%;
-    letter-spacing: 1px;
-}
-
-.bg_color_1 {
-    background-color: rgb(213, 152, 152);
-    font-weight: bold;
-}
-
-.bg_color_2 {
-    background-color: rgb(192, 69, 67);
-    color: white;
-    font-weight: bold;
-}
-
-.bg_color_3 {
-    background-color: rgb(229, 209, 152);
-    font-weight: bold;
-}
-
-.content {
-    float: left;
-    margin: 5px;
-}
-
-
-@media (min-width: 992px) {
-    .col-lg-4 {
-        width: 33.33%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6, .col-md-12 {
-        float: left;
-        border: 1px solid black;
-    }
-
-    .col-md-6 {
-        width: 50%;
-        background-color: grey;
-    }
-
-    .col-md-12 {
-        width: 100%;
-        background-color: grey;
-    }
-}
-
-@media (max-width: 767px) {
-    .col-sm-12 {
-        float: left;
-        border: 1px solid black;
-        width: 100%;
-        background-color: grey;
-    }
-}
-*/
   
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -145,6 +73,7 @@ div {
     border: 1px solid white;
     width: 33.33%;
     padding: 20px;
+    position: relative;
   }
 }
   
@@ -154,6 +83,7 @@ div {
       float: left;
       border: 1px solid white;
       padding: 20px;
+      position: relative;
     }
     .col-md-6 {
       width: 50%;
@@ -169,5 +99,6 @@ div {
     border: 1px solid white;
     width: 100%;
     padding: 20px;
+    position: relative;
   }
 }
