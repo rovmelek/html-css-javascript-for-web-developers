@@ -24,6 +24,7 @@ p {
 
 .bg_color_1 {
     background-color: rgb(213, 152, 152);
+    color: black;
     font-weight: bold;
 }
 
@@ -35,6 +36,7 @@ p {
 
 .bg_color_3 {
     background-color: rgb(229, 209, 152);
+    color: black;
     font-weight: bold;
 }
 
@@ -205,6 +207,7 @@ div {
     }
     .col-md-6 {
       width: 50%;
+      padding: 20px;
     }
     .col-md-7 {
       width: 58.33%;
@@ -266,5 +269,6 @@ div {
       }
       .col-sm-12 {
         width: 100%;
+        padding: 20px;
       }
 }
