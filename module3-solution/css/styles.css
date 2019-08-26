@@ -8,6 +8,7 @@ body {
     width: 100%;
     margin: 0;
 }
+
 /* change header navbar properties */
 #header-nav {
     border-radius: 0;
@@ -18,31 +19,38 @@ body {
 
 /* change the h1 header property in navbar brand*/
 .navbar-brand h1 {
-    font-size: 2em;
+    font-size: 12vw;
     font-weight: bold;
+    font-family: 'Alegreya', serif;
 }
 
 #nav-list a {
-    color: #951C49;
-    text-align: center;
+    font-size: 1.3em;
 }
+
 #nav-list a:hover {
     background: #E7E7E7;
 }
+
+/*
 #nav-list a span {
     font-size: 1.8em;
 }
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+*/
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
     border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
 }
 
-.container .jumbotron .display-4 {
-    text-align: center;
+.container .jumbotron h1 {
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 0;
 }
 
 #main-content {
@@ -54,32 +62,52 @@ body {
 .container .jumbotron {
     padding: 10px;
     background-color: white;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 
 p {
-    background-color: grey;
+    background-color: lightgray;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .title {
     text-align: center;
     background-color: lightgray;
     margin: 0;
+    padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
 }
 
 .content {
     text-align: center;
+    padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     background-color: lightgray;
     margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
-.col-md-4, .col-sm-6, .col-sm-12, .col-xs-12 {
+#back-to-top {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+.col-md-4,
+.col-sm-6,
+.col-sm-12,
+.col-xs-12 {
     padding: 20px;
     position: relative;
 }
@@ -87,4 +115,10 @@ p {
 /* override bootstrap 4 grid system max-width in media query */
 .container {
     max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    .navbar-brand h1 {
+        font-size: 4em;
+    }
 }

@@ -7,8 +7,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400i|Alegreya:700|Courgette|Fjalla+One&display=swap"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,6 +25,7 @@
 </head>
 
 <body>
+  <a name="top"></a>
   <header>
     <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-info">
       <a class="navbar-brand mb-0">
@@ -34,6 +39,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!--
         <ul class="navbar-nav ml-auto navbar-right">
           <li class="nav-item dropdown d-block d-sm-none">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -49,38 +55,113 @@
             </div>
           </li>
         </ul>
+        -->
+        <ul id="nav-list" class="navbar-nav ml-auto navbar-right text-center">
+          <div class="dropdown-divider d-block d-sm-none"></div>
+          <li class="nav-item dropdown d-block d-sm-none">
+            <a class="dropdown-item" href="#egg"><i class="fas fa-egg"></i> Egg</a>
+          </li>
+          <div class="dropdown-divider d-block d-sm-none"></div>
+          <li class="nav-item dropdown d-block d-sm-none">
+            <a class="dropdown-item" href="#fish"><i class="fas fa-fish"></i> Fish</a>
+          </li>
+          <div class="dropdown-divider d-block d-sm-none"></div>
+          <li class="nav-item dropdown d-block d-sm-none">
+            <a class="dropdown-item" href="#apple"><i class="fas fa-apple-alt"></i> Apple</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
 
   <div id="main-content" class="container">
     <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-4">Our Menu</h1>
+      <h1 class="display-4 text-center">Our Menu</h1>
     </div>
     <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="title">Egg</p>
-        <p class="content">Spicy jalapeno bacon ipsum dolor amet frankfurter tri-tip in proident leberkas salami
-          deserunt. Biltong veniam corned beef pig fugiat nisi. Tail short ribs cupidatat meatloaf, filet mignon aute
-          strip steak. Shank ut chuck deserunt salami aliqua adipisicing nisi ham landjaeger. Ball tip pariatur sed,
-          deserunt mollit in cupidatat velit t-bone occaecat commodo officia ea tri-tip. Eu t-bone boudin beef ribs,
-          sint cow commodo sunt leberkas labore aute lorem.</p>
+      <div id="egg" class="col-md-4 col-sm-6 col-xs-12">
+        <h3 class="title">Egg</h3>
+        <p class="content">Spicy jalapeno bacon ipsum dolor amet porchetta consectetur pork loin, meatball leberkas
+          pastrami minim biltong venison cillum burgdoggen et kevin quis. Velit laboris brisket, pig est sunt consequat
+          pork loin chuck swine ground round mollit ribeye. Pastrami minim pork belly culpa pork loin duis andouille
+          leberkas cow velit jowl. Officia incididunt cupidatat ribeye kevin labore in nulla est hamburger ea bresaola
+          tri-tip mollit.<br><br>
+
+          Quis dolor venison ground round, boudin officia laboris excepteur alcatra occaecat labore. Dolor commodo ut
+          doner fugiat. Alcatra boudin ball tip chicken, turducken bacon occaecat pig shoulder laboris commodo turkey
+          elit pastrami. Ut sausage esse frankfurter turkey anim boudin aliquip ribeye reprehenderit pork jerky beef
+          ribs meatball eiusmod. Ad quis id excepteur tongue ribeye. Meatloaf id turducken adipisicing enim ut ullamco
+          in ground round sirloin dolor sed.<br><br>
+
+          Meatball beef pork belly venison eiusmod ham. Pancetta jerky meatloaf aute consectetur fugiat dolore irure
+          beef adipisicing ut pastrami corned beef leberkas rump. Nulla pancetta commodo aliqua eu. Cillum laborum
+          doner, chicken incididunt strip steak tail lorem pork sint voluptate fugiat in.<br><br>
+
+          Deserunt id anim, strip steak ham enim kevin in velit short ribs picanha exercitation. Reprehenderit beef ribs
+          landjaeger duis, sausage ipsum dolore id enim. Magna ribeye in ex jerky tenderloin eiusmod in. Tempor tri-tip
+          ham ut. Quis short ribs ribeye hamburger bresaola corned beef adipisicing sirloin deserunt in.<br><br>
+
+          Pork chop spare ribs veniam dolore culpa deserunt officia velit turducken rump shoulder. Consequat tri-tip
+          beef ribs short loin occaecat in. Boudin andouille sed, alcatra hamburger ham hock cupim ut non ipsum bresaola
+          ut duis. Shankle pork loin nostrud in beef ipsum short loin proident sint aliqua dolore laborum do dolor.
+          Chicken aute laborum ribeye strip steak mollit est turkey buffalo porchetta eu. Alcatra magna rump duis.</p>
+          <p id="back-to-top">(End of Egg section)<a href="#top"> Back To Top</a></p>
       </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="title">Fish</p>
-        <p class="content">Spicy jalapeno bacon ipsum dolor amet frankfurter tri-tip in proident leberkas salami
-          deserunt. Biltong veniam corned beef pig fugiat nisi. Tail short ribs cupidatat meatloaf, filet mignon aute
-          strip steak. Shank ut chuck deserunt salami aliqua adipisicing nisi ham landjaeger. Ball tip pariatur sed,
-          deserunt mollit in cupidatat velit t-bone occaecat commodo officia ea tri-tip. Eu t-bone boudin beef ribs,
-          sint cow commodo sunt leberkas labore aute lorem.</p>
+      <div id="fish" class="col-md-4 col-sm-6 col-xs-12">
+        <h3 class="title">Fish</h3>
+        <p class="content">Spicy jalapeno bacon ipsum dolor amet porchetta consectetur pork loin, meatball leberkas
+          pastrami minim biltong venison cillum burgdoggen et kevin quis. Velit laboris brisket, pig est sunt consequat
+          pork loin chuck swine ground round mollit ribeye. Pastrami minim pork belly culpa pork loin duis andouille
+          leberkas cow velit jowl. Officia incididunt cupidatat ribeye kevin labore in nulla est hamburger ea bresaola
+          tri-tip mollit.<br><br>
+
+          Quis dolor venison ground round, boudin officia laboris excepteur alcatra occaecat labore. Dolor commodo ut
+          doner fugiat. Alcatra boudin ball tip chicken, turducken bacon occaecat pig shoulder laboris commodo turkey
+          elit pastrami. Ut sausage esse frankfurter turkey anim boudin aliquip ribeye reprehenderit pork jerky beef
+          ribs meatball eiusmod. Ad quis id excepteur tongue ribeye. Meatloaf id turducken adipisicing enim ut ullamco
+          in ground round sirloin dolor sed.<br><br>
+
+          Meatball beef pork belly venison eiusmod ham. Pancetta jerky meatloaf aute consectetur fugiat dolore irure
+          beef adipisicing ut pastrami corned beef leberkas rump. Nulla pancetta commodo aliqua eu. Cillum laborum
+          doner, chicken incididunt strip steak tail lorem pork sint voluptate fugiat in.<br><br>
+
+          Deserunt id anim, strip steak ham enim kevin in velit short ribs picanha exercitation. Reprehenderit beef ribs
+          landjaeger duis, sausage ipsum dolore id enim. Magna ribeye in ex jerky tenderloin eiusmod in. Tempor tri-tip
+          ham ut. Quis short ribs ribeye hamburger bresaola corned beef adipisicing sirloin deserunt in.<br><br>
+
+          Pork chop spare ribs veniam dolore culpa deserunt officia velit turducken rump shoulder. Consequat tri-tip
+          beef ribs short loin occaecat in. Boudin andouille sed, alcatra hamburger ham hock cupim ut non ipsum bresaola
+          ut duis. Shankle pork loin nostrud in beef ipsum short loin proident sint aliqua dolore laborum do dolor.
+          Chicken aute laborum ribeye strip steak mollit est turkey buffalo porchetta eu. Alcatra magna rump duis.</p>
+          <p id="back-to-top">(End of Fish section)<a href="#top"> Back To Top</a></p>
       </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <p class="title">Apple</p>
-        <p class="content">Spicy jalapeno bacon ipsum dolor amet frankfurter tri-tip in proident leberkas salami
-          deserunt. Biltong veniam corned beef pig fugiat nisi. Tail short ribs cupidatat meatloaf, filet mignon aute
-          strip steak. Shank ut chuck deserunt salami aliqua adipisicing nisi ham landjaeger. Ball tip pariatur sed,
-          deserunt mollit in cupidatat velit t-bone occaecat commodo officia ea tri-tip. Eu t-bone boudin beef ribs,
-          sint cow commodo sunt leberkas labore aute lorem.</p>
+      <div id="apple" class="col-md-4 col-sm-12 col-xs-12">
+        <h3 class="title">Apple</h3>
+        <p class="content">Spicy jalapeno bacon ipsum dolor amet porchetta consectetur pork loin, meatball leberkas
+          pastrami minim biltong venison cillum burgdoggen et kevin quis. Velit laboris brisket, pig est sunt consequat
+          pork loin chuck swine ground round mollit ribeye. Pastrami minim pork belly culpa pork loin duis andouille
+          leberkas cow velit jowl. Officia incididunt cupidatat ribeye kevin labore in nulla est hamburger ea bresaola
+          tri-tip mollit.<br><br>
+
+          Quis dolor venison ground round, boudin officia laboris excepteur alcatra occaecat labore. Dolor commodo ut
+          doner fugiat. Alcatra boudin ball tip chicken, turducken bacon occaecat pig shoulder laboris commodo turkey
+          elit pastrami. Ut sausage esse frankfurter turkey anim boudin aliquip ribeye reprehenderit pork jerky beef
+          ribs meatball eiusmod. Ad quis id excepteur tongue ribeye. Meatloaf id turducken adipisicing enim ut ullamco
+          in ground round sirloin dolor sed.<br><br>
+
+          Meatball beef pork belly venison eiusmod ham. Pancetta jerky meatloaf aute consectetur fugiat dolore irure
+          beef adipisicing ut pastrami corned beef leberkas rump. Nulla pancetta commodo aliqua eu. Cillum laborum
+          doner, chicken incididunt strip steak tail lorem pork sint voluptate fugiat in.<br><br>
+
+          Deserunt id anim, strip steak ham enim kevin in velit short ribs picanha exercitation. Reprehenderit beef ribs
+          landjaeger duis, sausage ipsum dolore id enim. Magna ribeye in ex jerky tenderloin eiusmod in. Tempor tri-tip
+          ham ut. Quis short ribs ribeye hamburger bresaola corned beef adipisicing sirloin deserunt in.<br><br>
+
+          Pork chop spare ribs veniam dolore culpa deserunt officia velit turducken rump shoulder. Consequat tri-tip
+          beef ribs short loin occaecat in. Boudin andouille sed, alcatra hamburger ham hock cupim ut non ipsum bresaola
+          ut duis. Shankle pork loin nostrud in beef ipsum short loin proident sint aliqua dolore laborum do dolor.
+          Chicken aute laborum ribeye strip steak mollit est turkey buffalo porchetta eu. Alcatra magna rump duis.</p>
+          <p id="back-to-top">(End of Apple section)<a href="#top"> Back To Top</a></p>
       </div>
     </div><!-- End of #home-tiles -->
   </div><!-- End of #main-content -->
