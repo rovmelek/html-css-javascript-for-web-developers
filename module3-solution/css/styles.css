@@ -103,8 +103,8 @@ p {
 .back-to-top {
     background-color: lightgray;
     margin: 0;
-    padding: 0;
     text-align: right;
+    padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
 }
