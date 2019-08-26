@@ -24,6 +24,10 @@ body {
     font-family: 'Alegreya', serif;
 }
 
+#nav-list {
+    width: 100%;
+}
+
 #nav-list a {
     font-size: 1.3em;
 }
@@ -32,6 +36,11 @@ body {
     background: #E7E7E7;
 }
 
+.nav-item {
+    border-top: 2px solid white;
+    width: 100%;
+    background-color: lightblue;
+}
 /*
 #nav-list a span {
     font-size: 1.8em;
