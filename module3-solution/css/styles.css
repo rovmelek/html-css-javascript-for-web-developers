@@ -1,0 +1,90 @@
+/* some global properties for body tag */
+body {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+/* change header navbar properties */
+#header-nav {
+    border-radius: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+/* change the h1 header property in navbar brand*/
+.navbar-brand h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.container .jumbotron .display-4 {
+    text-align: center;
+}
+
+#main-content {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.container .jumbotron {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+p {
+    background-color: grey;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    text-align: center;
+    background-color: lightgray;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.content {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.col-md-4, .col-sm-6, .col-sm-12, .col-xs-12 {
+    padding: 20px;
+    position: relative;
+}
+
+/* override bootstrap 4 grid system max-width in media query */
+.container {
+    max-width: 100%;
+}
