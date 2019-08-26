@@ -18,7 +18,7 @@ body {
 }
 
 /* change the h1 header property in navbar brand*/
-.navbar-brand h1 {
+.navbar-brand h2 {
     font-size: 12vw;
     font-weight: bold;
     font-family: 'Alegreya', serif;
@@ -118,7 +118,7 @@ p {
 }
 
 @media (min-width: 576px) {
-    .navbar-brand h1 {
-        font-size: 4em;
+    .navbar-brand h2 {
+        font-size: 3.5em;
     }
 }
