@@ -1,35 +1,14 @@
-var x;
+(function () {
+  // change John to john and Jason to json so we can validate the if condition inside the for loop
+  var names = ["Yaakov", "john", "Jen", "jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-function test_x () {
-    console.log("current value of x is: " + x)
-    console.log("doing loosely compare using ==")
-    if (x == undefined) {
-        console.log("x is undefined");
+  for (let i = 0; i < names.length; i++) {
+    // use regular expression match is easier and cleaner in this case
+    let pattern = /^j/i;
+    if (names[i].match(pattern)) {
+      byeSpeaker.speak(names[i]);
     } else {
-        console.log("x is defined")
+      helloSpeaker.speak(names[i]);
     }
-    if (x == null) {
-        console.log("x is null");
-    } else {
-        console.log("x is not null")
-    }
-    console.log("doing strictly compare using ===")
-    if (x === undefined) {
-        console.log("x is undefined");
-    } else {
-        console.log("x is defined")
-    }
-    if (x === null) {
-        console.log("x is null");
-    } else {
-        console.log("x is not null")
-    }
-}
-
-test_x();
-
-x = null;
-test_x();
-
-x = 5;
-test_x();
+  ;}
+})();
