@@ -117,8 +117,11 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
-      let categoryShortName = chosenCategoryShortName.short_name;
-      let homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", `'${categoryShortName}'`);
+      let homeHtmlToInsertIntoMainPage = insertProperty(
+                                            homeHtml,
+                                            "randomCategoryShortName",
+                                            `'${chosenCategoryShortName.short_name}'` // use template literals
+                                          );
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
